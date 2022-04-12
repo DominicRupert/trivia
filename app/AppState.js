@@ -5,7 +5,7 @@ class AppState extends EventEmitter {
   /** @type {import('./Models/Value').Value[]} */
   values = []
   /**@type {import ('./Models/Game.js').Game[]} */
-  games = [ ]
+  games = []
 }
 
 export const ProxyState = new Proxy(new AppState(), {
