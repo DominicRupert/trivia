@@ -1,3 +1,4 @@
+
 import { ProxyState } from "../AppState.js";
 import { Game } from "../Models/Game.js";
 class GamesService{
@@ -8,9 +9,8 @@ class GamesService{
         console.log(response);
     }
 
-    guess(){
-        
-    }
+    
+    
 }
 
 export const gamesService = new GamesService()
